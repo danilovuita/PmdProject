@@ -1,5 +1,6 @@
 import 'package:bmi/constants.dart';
 import 'package:flutter/material.dart';
+import '../main.dart';
 
 class IndexScreen extends StatelessWidget {
   @override
@@ -22,7 +23,6 @@ class IndexScreen extends StatelessWidget {
     );
   }
 }
-
 class RectangleTextButton extends StatelessWidget {
   RectangleTextButton({@required this.title, @required this.onPressed});
 

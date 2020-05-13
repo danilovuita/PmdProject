@@ -1,9 +1,7 @@
-import 'dart:ffi';
-
-import 'package:bmi/reuslts_page.dart';
+import 'package:bmi/screens/reuslts_page.dart';
 import 'package:flutter/material.dart';
-import 'input_page.dart';
-import 'index.dart';
+import 'screens/input_page.dart';
+import 'screens/index.dart';
 
 void main() {
   runApp(BMICalculator());
